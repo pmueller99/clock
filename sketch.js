@@ -8,7 +8,7 @@
 const canvasBreite = 700;
 const canvasHoehe = 700;
 
-var myFont;
+const myFont;
 function preload() {
 	myFont = loadFont('assets/MythosStd.otf');
 }
