@@ -69,7 +69,8 @@ function draw() {
 	textSize(50);
 	textAlign(CENTER);
 	//textFont(myFont);
-	
+
+	// Wenn Werte < 10 dann eine '0' davor
 	if (hr < 10) {
 		hr = '0' + hr;
 	}
