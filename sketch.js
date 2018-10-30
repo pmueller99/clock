@@ -5,12 +5,12 @@
 // Clock
 // Video: https://youtu.be/E4RyStef-gY
 
-const canvasBreite = 700;
-const canvasHoehe = 700;
+const canvasBreite = 750;
+const canvasHoehe = 750;
 
-const myFont;
+let myFont;
 function preload() {
-	myFont = loadFont('assets/MythosStd.otf');
+	myFont = loadFont('assets/SourceSansPro-Regular.otf');
 }
 
 function setup() {
@@ -66,9 +66,9 @@ function draw() {
 
 	noStroke();
 	fill(255);
-	textSize(50);
+	textSize(height/10);
 	textAlign(CENTER);
-	//textFont(myFont);
+	textFont(myFont);
 
 	// Wenn Werte < 10 dann eine '0' davor
 	if (hr < 10) {
