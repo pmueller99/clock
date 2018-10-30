@@ -4,6 +4,7 @@
 
 // Clock
 // Video: https://youtu.be/E4RyStef-gY
+// Edit by Schnippel
 
 const canvasBreite = 750;
 const canvasHoehe = 750;
@@ -66,7 +67,7 @@ function draw() {
 
 	noStroke();
 	fill(255);
-	textSize(height/10);
+	textSize(height / 10);
 	textAlign(CENTER);
 	textFont(myFont);
 
